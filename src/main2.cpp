@@ -2,7 +2,7 @@
 
 int main()
 {
-double cost = calcCost();
+	double cost = calcCost();
 	std::cout << "The cost is " << cost << std::endl;
 	Circle c(0.0);
 	std::cout << c.getArea() << std::endl;
